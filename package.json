@@ -1,0 +1,37 @@
+{
+  "name": "atividade-workflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felmacs/atividade-workflow.git"
+  },
+  "keywords": [
+    "Atividade",
+    "workflow"
+  ],
+  "author": "Felipe Macedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felmacs/atividade-workflow/issues"
+  },
+  "homepage": "https://github.com/felmacs/atividade-workflow#readme",
+  "dependencies": {
+    "git": "^0.1.5",
+    "sublime": "^1.2.1"
+  },
+  "devDependencies": {
+    "bower": "^1.8.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-strip-css-comments": "^1.2.0",
+    "gulp-watch": "^4.3.11"
+  }
+}
