@@ -1,0 +1,23 @@
+a {
+	list-style: none;
+	color:#000;
+	margin-left: 20px;
+}
+
+.azul {
+	&:hover{
+		@include nav(white,blue,black);
+		}
+}
+
+.vermelho{
+	&:hover{
+		@include nav(white,red,black);
+	}
+}
+.cinza {
+	&:hover{
+		@include nav(white,gray,black);
+	}
+
+}

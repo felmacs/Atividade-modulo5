@@ -1,0 +1,13 @@
+
+.navbar {
+	@extend %center-horizontal;
+	background-image: url("../../dist/img/bg-withe.png");
+
+	img {
+		float: left;
+		width: 160px;
+		@extend %center-vertical;
+	}
+
+}
+

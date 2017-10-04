@@ -1,0 +1,43 @@
+.navbar img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+
+.navbar {
+  position: relative;
+  width: 614px;
+  height: 110px; }
+
+.navbar {
+  background-image: url("../../dist/img/bg-withe.png"); }
+  .navbar img {
+    float: left;
+    width: 160px; }
+
+.navbar li {
+  margin-top: 10px;
+  margin-right: 5px;
+  display: inline;
+  float: right;
+  list-style: none; }
+
+a {
+  list-style: none;
+  color: #000;
+  margin-left: 20px; }
+
+.azul:hover {
+  color: white;
+  background: blue;
+  border: 2px solid black; }
+
+.vermelho:hover {
+  color: white;
+  background: red;
+  border: 2px solid black; }
+
+.cinza:hover {
+  color: white;
+  background: gray;
+  border: 2px solid black; }

@@ -1,0 +1,18 @@
+%center-vertical {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+%center-horizontal{
+	position: relative;
+	width: 614px;
+	height:110px;
+}
+
+@mixin nav ($color, $background, $border) {
+	color : $color;
+	background: $background;
+	border: 2px solid $border;
+}
